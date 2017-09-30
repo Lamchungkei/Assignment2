@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {587, 563}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{26, 50}, {261, 94}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{219, 266}, {150, 32}}",
+          "uuid" : "E5CC420E-E6E4-4D74-A574-6A5036CAB7C3",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the number of second since the object was dropped, in second",
+          "font_size" : 18,
+          "name" : "time_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{33, 152}, {103, 53}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{254, 266}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "ED6EAB40-88B3-43F0-8149-5CC3587A1880",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{26, 263}, {352, 44}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{219, 266}, {150, 32}}",
+          "uuid" : "8219B913-419B-403E-B832-1AB0DD05D9B7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "name" : "answer_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{320, 70}, {164, 47}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{194, 266}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "83F48C53-69C7-43E9-80CF-0881BFEDFDC8",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "time_textbox"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
