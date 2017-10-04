@@ -5,7 +5,7 @@
     "class" : "View",
     "nodes" : [
       {
-        "selected" : true,
+        "selected" : false,
         "frame" : "{{26, 50}, {261, 94}}",
         "class" : "Label",
         "nodes" : [
@@ -18,8 +18,8 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Enter the number of second since the object was dropped, in second",
-          "font_size" : 18,
-          "name" : "time_label"
+          "name" : "time_label",
+          "font_size" : 18
         }
       },
       {
@@ -53,8 +53,8 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "",
-          "font_size" : 18,
-          "name" : "answer_label"
+          "name" : "answer_label",
+          "font_size" : 18
         }
       },
       {
@@ -72,17 +72,18 @@
           "uuid" : "83F48C53-69C7-43E9-80CF-0881BFEDFDC8",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "time_textbox"
+          "name" : "time_textbox",
+          "font_size" : 17
         }
       }
     ],
     "attributes" : {
+      "flex" : "",
       "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "flex" : ""
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)"
     }
   }
 ]

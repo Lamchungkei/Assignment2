@@ -20,6 +20,9 @@ def calculate_touch_up_inside(sender):
     
     #output
     view['answer_label'].text = 'The height is ' + str(height) + ' m'
+    
+    if height < 0:
+       view['answer_label'].text = 'Height cannot be negative.'
 
     
 
